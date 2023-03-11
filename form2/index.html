@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Name</legend>
+
+            <label for="first-name">First Name: </label>
+            <input type="text" name="first-name" id="first-name">
+            <br>
+
+            <label for="middle-name">Middle Name: </label>
+            <input type="text" name="middle-name" id="middle-name">
+            <br>
+
+            <label for="last-name">Last Name: </label>
+            <input type="text" name="last-name" id="last-name">
+            <br>
+        </fieldset>
+
+        <label for="address">Address: </label>
+        <br>
+        <textarea name="address" id="address" cols="30" rows="10"></textarea>
+        <br>
+
+        <label for="service-type">Type of service required: </label>
+        <select name="service-type" id="service-type">
+            <option value="electrician">Electrician</option>
+            <option value="plumbing">Plumbing</option>
+            <option value="mason">Mason</option>
+            <option value="carpenter">Carpenter</option>
+            <option value="whitewash">Whitewash</option>
+        </select>
+        <br>
+
+        <label for="contact-time">Convenient time for contacting: </label>
+        <input type="text" name="contact-time" id="contact-time">
+        <br>
+
+        <label for="phone-number">Phone no.</label>
+        <input type="tel" name="phone-number" id="phone-number">
+        <br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
